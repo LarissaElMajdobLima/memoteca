@@ -17,6 +17,12 @@
       "conteudo": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem molestias ipsum sequi labore quisquam optio, magni consequatur asperiores tempore saepe reprehenderit repellat harum obcaecati dolorum voluptates quia nam sed illum.",
       "autoria": "Lorem ipsum",
       "modelo": "modelo3"
+    },
+    {
+      "conteudo": "Novo pensamento",
+      "autoria": "Lary123",
+      "modelo": "modelo2",
+      "id": 4
     }
   ]
 }
