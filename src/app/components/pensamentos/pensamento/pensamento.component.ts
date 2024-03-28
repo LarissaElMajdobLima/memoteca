@@ -10,9 +10,9 @@ export class PensamentoComponent implements OnInit {
 
   @Input() pensamento: Pensamento = {
     id: 0,
-    conteudo: 'I S2 Angular',
-    autoria: 'Lary',
-    modelo: 'modelo3'
+    conteudo: '',
+    autoria: '',
+    modelo: ''
   }
 
   constructor() { }
