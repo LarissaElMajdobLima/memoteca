@@ -9,6 +9,10 @@
     </div>
   </div>
 </section>
+<app-botao-carregar-mais
+  [temMaisPensamentos]="temMaisPensamentos"
+  (click)="carregarMaisPensamentos()">
+</app-botao-carregar-mais>
 <ng-template #semPensamentos>
   <div class="ff-inter sem-pensamentos">
     <p>Ainda nao há pensamentos cadastrados!</p>
