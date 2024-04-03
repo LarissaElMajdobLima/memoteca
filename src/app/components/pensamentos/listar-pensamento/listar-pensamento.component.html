@@ -10,12 +10,19 @@
         (keyup)="pesquisarPensamentos()">
         <img src="/assets/imagens/lupa.png" alt="Blue magnifier">
     </div>
-      <h2 class="ff-inter">Meu Mural</h2>
-      <button class="botao" routerLink="/criarPensamento">Adicionar pensamento</button>
+      <h2 class="ff-inter">{{ !this.favoritos ? 'Meu Mural' : 'Meus Favoritos' }}</h2>
+      <div class="botoes">
+        <button class="botao" (click)="recarregarComponente()">Meu Mural</button>
+        <button class="botao" (click)="listarFavoritos()">Meus Favoritos</button>
+        <button class="botao" routerLink="/criarPensamento">Novo pensamento</button>
+      </div>
   </header>
   <div *ngIf="listaPensamento.length > 0, else semPensamentos" class="mural">
     <div *ngFor="let pensamento of listaPensamento">
-      <app-pensamento [pensamento]="pensamento"></app-pensamento>
+      <app-pensamento
+        [pensamento]="pensamento"
+        [listaFavoritos]="listaFavoritos">
+      </app-pensamento>
     </div>
   </div>
 </section>

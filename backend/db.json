@@ -12,14 +12,14 @@
       "conteudo": "Palma, palma, não priemos cânico!",
       "autoria": "Chapolin (Chapolin Colorado)",
       "modelo": "modelo2",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 3,
       "conteudo": "A grandeza do mestre Shifu reside na simplicidade de seus ensinamentos.",
       "autoria": "Mestre Shifu (Kung fu Panda)",
       "modelo": "modelo3",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 4,
