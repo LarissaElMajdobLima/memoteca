@@ -2,27 +2,143 @@
   "pensamentos": [
     {
       "id": 1,
-      "conteudo": "Passo infos para o componente filho",
-      "autoria": "Componente pai",
-      "modelo": "modelo1"
+      "conteudo": "Não existe trabalho ruim, o ruim é ter que trabalhar.",
+      "autoria": "Chaves (Chaves)",
+      "modelo": "modelo1",
+      "favorito": true
     },
     {
       "id": 2,
-      "conteudo": "Minha propriedade é decorada com @input",
-      "autoria": "Componente filho",
-      "modelo": "modelo2"
+      "conteudo": "Palma, palma, não priemos cânico!",
+      "autoria": "Chapolin (Chapolin Colorado)",
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
       "id": 3,
-      "conteudo": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem molestias ipsum sequi labore quisquam optio, magni consequatur asperiores tempore saepe reprehenderit repellat harum obcaecati dolorum voluptates quia nam sed illum.",
-      "autoria": "Lorem ipsum",
-      "modelo": "modelo3"
+      "conteudo": "A grandeza do mestre Shifu reside na simplicidade de seus ensinamentos.",
+      "autoria": "Mestre Shifu (Kung fu Panda)",
+      "modelo": "modelo3",
+      "favorito": false
     },
     {
-      "conteudo": "Novo pensamento",
-      "autoria": "Lary123",
+      "id": 4,
+      "conteudo": "É preciso muita coragem para enfrentarmos os nossos inimigos, mas igual coragem para enfrentarmos os nossos amigos.",
+      "autoria": "Albus Dumbledore (Harry Potter)",
+      "modelo": "modelo1",
+      "favorito": false
+    },
+    {
+      "id": 5,
+      "conteudo": "O medo é necessário para manter o equilíbrio no mundo.",
+      "autoria": "Death Note (Death Note)",
       "modelo": "modelo2",
-      "id": 4
+      "favorito": false
+    },
+    {
+      "id": 6,
+      "conteudo": "Ninguém morre de véspera, exceto aqueles que morrem.",
+      "autoria": "Chaves (Chaves)",
+      "modelo": "modelo3",
+      "favorito": false
+    },
+    {
+      "id": 7,
+      "conteudo": "Se a inveja tem asas, fico feliz que ela voe para longe de mim.",
+      "autoria": "Chapolin (Chapolin Colorado)",
+      "modelo": "modelo1",
+      "favorito": false
+    },
+    {
+      "id": 8,
+      "conteudo": "O segredo da realização está na persistência e no esforço contínuo.",
+      "autoria": "Mestre Shifu (Kung fu Panda)",
+      "modelo": "modelo2",
+      "favorito": false
+    },
+    {
+      "id": 9,
+      "conteudo": "As palavras são, na minha humilde opinião, nossa mais inesgotável fonte de magia, capazes de ferir e de curar.",
+      "autoria": "Albus Dumbledore (Harry Potter)",
+      "modelo": "modelo3",
+      "favorito": false
+    },
+    {
+      "id": 10,
+      "conteudo": "A verdadeira justiça não é encontrada em leis ou nações, mas nas ações de indivíduos.",
+      "autoria": "Death Note (Death Note)",
+      "modelo": "modelo1",
+      "favorito": false
+    },
+    {
+      "id": 11,
+      "conteudo": "As lembranças são como bolhas de sabão, belas mas frágeis.",
+      "autoria": "Chaves (Chaves)",
+      "modelo": "modelo2",
+      "favorito": false
+    },
+    {
+      "id": 12,
+      "conteudo": "A esperança é a última a morrer, mas sempre há um motivo para mantê-la viva.",
+      "autoria": "Chapolin (Chapolin Colorado)",
+      "modelo": "modelo3",
+      "favorito": false
+    },
+    {
+      "id": 13,
+      "conteudo": "O segredo para dominar a arte é persistir mesmo quando todos os outros desistem.",
+      "autoria": "Mestre Shifu (Kung fu Panda)",
+      "modelo": "modelo1",
+      "favorito": false
+    },
+    {
+      "id": 14,
+      "conteudo": "É as nossas escolhas, Harry, que revelam o que realmente somos, muito mais do que as nossas qualidades.",
+      "autoria": "Albus Dumbledore (Harry Potter)",
+      "modelo": "modelo2",
+      "favorito": false
+    },
+    {
+      "id": 15,
+      "conteudo": "A morte é apenas o começo de outra grande aventura.",
+      "autoria": "Death Note (Death Note)",
+      "modelo": "modelo3",
+      "favorito": false
+    },
+    {
+      "id": 16,
+      "conteudo": "Na vida, devemos aprender a cair sete vezes e levantar oito.",
+      "autoria": "Chaves (Chaves)",
+      "modelo": "modelo1",
+      "favorito": false
+    },
+    {
+      "id": 17,
+      "conteudo": "Às vezes, a melhor defesa é um bom ataque.",
+      "autoria": "Chapolin (Chapolin Colorado)",
+      "modelo": "modelo2",
+      "favorito": false
+    },
+    {
+      "id": 18,
+      "conteudo": "O verdadeiro conhecimento não é poder, é compreensão.",
+      "autoria": "Mestre Shifu (Kung fu Panda)",
+      "modelo": "modelo3",
+      "favorito": false
+    },
+    {
+      "id": 19,
+      "conteudo": "Palavras têm o poder de acalmar ou inflamar o coração.",
+      "autoria": "Albus Dumbledore (Harry Potter)",
+      "modelo": "modelo1",
+      "favorito": false
+    },
+    {
+      "id": 20,
+      "conteudo": "A verdade é relativa. Depende do ponto de vista de cada um.",
+      "autoria": "Death Note (Death Note)",
+      "modelo": "modelo2",
+      "favorito": false
     }
   ]
 }
