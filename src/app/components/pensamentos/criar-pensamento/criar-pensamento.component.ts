@@ -30,7 +30,8 @@ export class CriarPensamentoComponent implements OnInit {
         Validators.minLength(3),
         capitalizeValidator
       ])],
-      modelo: ['modelo1']
+      modelo: ['modelo1'],
+      favorito: [false]
     })
   }
 
@@ -49,9 +50,8 @@ export class CriarPensamentoComponent implements OnInit {
   habilitarBotao(): string {
     if(this.formulario.valid) {
       return 'botao';
-    } else {
-      return 'botao__desabilitado';
     }
+    return 'botao__desabilitado';
   }
 
 }

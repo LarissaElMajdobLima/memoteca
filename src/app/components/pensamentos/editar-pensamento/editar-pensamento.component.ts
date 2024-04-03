@@ -34,7 +34,8 @@ export class EditarPensamentoComponent implements OnInit {
           Validators.minLength(3),
           capitalizeValidator
         ])],
-        modelo: [pensamento.modelo]
+        modelo: [pensamento.modelo],
+        favorito: [pensamento.favorito]
       })
     })
   }
@@ -54,9 +55,9 @@ export class EditarPensamentoComponent implements OnInit {
   habilitarBotao(): string {
     if (this.formulario.valid) {
       return 'botao';
-    } else {
-      return 'botao__desabilitado'
     }
+    return 'botao__desabilitado'
+
   }
 
 }
